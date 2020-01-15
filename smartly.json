@@ -214,6 +214,20 @@
       "iconColor": "rgba(0,0,0,0.66)",
       "state": "dry",
       "customIcon": ""
+    },
+    {
+      "template": "smoke",
+      "bgColor": "rgba(255, 0, 0, 0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "customIcon": "",
+      "state": "detected"
+    },
+    {
+      "template": "smoke",
+      "bgColor": "rgba(0, 255, 105, 0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "customIcon": "",
+      "state": "clear"
     }
   ],
   "colWidth": 160,
