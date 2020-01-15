@@ -13,6 +13,10 @@ As there isn't an actual 'skin' system for Hubitat Dashboard, the easiest way to
 - Copy and paste the contents of .json into Options > Advanced > Layout then 'Save JSON'.
 - Copy and paste the contents of .css into Options > Advanced > CSS then 'Save CSS'.
 
+### Fonts and Background Images
+
+To truly have everything under one roof, you'll need to host the /assets folder locally and update your css and json to reflect the local url of those files.   Font references are at the start of the CSS file, and background image is at the end of the JSON.
+
 ## Changelog
 
 - *smartly*
