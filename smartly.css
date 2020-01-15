@@ -315,6 +315,8 @@ margin-top: 0px;
 	width: calc(100%);
 }
 
+/* DEVELOPMENT shift Options and Add Tile overlay to the right */
+/*
 .popup-container {
 	right: 0;
 	width: 50%;
@@ -328,6 +330,7 @@ margin-top: 0px;
 .popup-container .menu {
 	margin-right: 20px;
 }
+*/
 
 /* fix mobile overscroll */
 
