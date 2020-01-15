@@ -1,9 +1,9 @@
 /* TODO: viewport width dependent zooming */
 
 html {
-zoom: 1.1; 
+	zoom: 1.0; 
 	-moz-transform: scale(1.1); 
-    -moz-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
 }
 
 /* global font replacement */
@@ -12,7 +12,9 @@ zoom: 1.1;
 	font-family: 'Barlow Semi Condensed'; font-style: normal; font-weight: 400; font-display: swap; src: local('Barlow Semi Condensed Regular'), local('BarlowSemiCondensed-Regular'), url(https://fonts.gstatic.com/s/barlowsemicondensed/v5/wlpvgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXeIqqKkkogw.woff2) format('woff2');   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-#app, body { font-family: 'Barlow Semi Condensed', sans-serif; }
+#app, body {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
 
 @font-face {
 	font-family: "Material Design Icons";
@@ -26,26 +28,26 @@ zoom: 1.1;
 /* fix blue highlight on hover and click */
 
 .vue-slider {
-    padding: 0px 0px 5px 0px !important;
+	padding: 0px 0px 5px 0px !important;
 }
 
 .tile { 
 	text-shadow: none;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 	-webkit-tap-highlight-color: transparent;
 	margin-left:1px;
 }
 
 .dashName {
-    font-size: 25px;
-    text-shadow: none;
-    color: black;
-    margin-left:10px ;
+	font-size: 25px;
+	text-shadow: none;
+	color: black;
+	margin-left:10px ;
 }
 
 .tile-secondary {
@@ -53,16 +55,16 @@ zoom: 1.1;
 }
 
 .tile-contents {
-    margin-top: 0px !important;
-    padding: 0px 4px;
-    height: calc(100% - 30px) !important;
+	margin-top: 0px !important;
+	padding: 0px 4px;
+	height: calc(100% - 30px) !important;
 }
 
 .tile-title {
-    position: relative;
+	position: relative;
 	left: auto;
 	right: auto;
-    padding: 7px 0px 0px 0px;
+	padding: 7px 0px 0px 0px;
 }
 
 .dashBack {
@@ -77,17 +79,19 @@ zoom: 1.1;
 
 .tile-tertiary {
 	padding: 5px;
-    text-align: left;
-    position: absolute;
-    left: 8px;
-    bottom: 5px;
-    font-size: 85%;
+	text-align: left;
+	position: absolute;
+	left: 8px;
+	bottom: 5px;
+	font-size: 85%;
 	top: auto;
 	right: auto;
 }
 
 /* tile icon replacement */
 
+.he-fire_alarm_clear:before,
+.he-fire1:before,
 .he-water_wet:before,
 .he-water_dry:before,
 .he-garage_closed:before,
@@ -106,7 +110,15 @@ zoom: 1.1;
 .he-window_2:before,
 .he-door_open:before,
 .he-door_closed:before {
-    font-family: "Material Design Icons" !important;
+	font-family: "Material Design Icons" !important;
+}
+
+.he-fire_alarm_clear:before {
+	content: "\F392";
+}
+
+.he-fire1:before {
+	content: "\F238";
 }
 
 .he-water_wet:before {
@@ -134,44 +146,44 @@ zoom: 1.1;
 }
 
 .he-hour-glass:before {
-   content: "\F1D8";
+	content: "\F1D8";
 }
 
 .he-motion_detector_3:before,
 .he-motion_detector_3_filled:before,
 .he-motion-sensor:before {
-    content: "\FD6D";
+	content: "\FD6D";
 }
 
 .he-switch_2:before,
 .he-dimmer_low:before {
-    content: "\FA18";
+	content: "\FA18";
 }
 
 .he-switch_2_flipped:before,
 .he-dimmer_medium:before {
-    content: "\F521";
+	content: "\F521";
 }
 
 .he-dimmer_low:before,
 .he-dimmer_medium:before {
-    margin-top: -5px;
+	margin-top: -5px;
 }
 
 .he-window_1:before {
-    content: "\F5AE";
+	content: "\F5AE";
 }
 
 .he-window_2:before {
-    content: "\F5B1";
+	content: "\F5B1";
 }
 
 .he-door_open:before {
-    content: "\F81B";
+	content: "\F81B";
 }
 
 .he-door_closed:before {
-    content: "\F819";
+	content: "\F819";
 }
 
 /* specific tile layout corrections */
@@ -194,14 +206,14 @@ zoom: 1.1;
 }
 
 .tile.date-clock .tile-primary div {
-  font-size: 80% !important;
+	font-size: 80% !important;
 	font-weight: normal;
 	padding-left: 10px;
 }
 
 .tile.date-clock .tile-contents {
-    margin-top: 0px;
-    height: calc(100% - 15px) !important;
+	margin-top: 0px;
+	height: calc(100% - 15px) !important;
 }
 
 .tile.date-clock small {
@@ -209,27 +221,27 @@ zoom: 1.1;
 }
 
 .tile.dashboard {
-background-color: transparent;
+	background-color: transparent;
 }
 
 .tile.dashboard .tile-edit {
-bottom: auto;
-top: 5px;
+	bottom: auto;
+	top: 5px;
 }
 
 .tile.dashboard .tile-title {
-display: none;
+	display: none;
 }
 
 .tile.dashboard .tile-primary {
-height: auto;
-display: block;
-color: black;
+	height: auto;
+	display: block;
+	color: black;
 }
 
 .tile.dashboard .tile-primary::before {
-    font-family: "Material Design Icons" !important;
-content: "\F56E";
+	font-family: "Material Design Icons" !important;
+	content: "\F56E";
 }
 
 .tile.dashboard .tile-contents {
@@ -245,34 +257,33 @@ margin-top: 0px;
 }
 
 .tile.thermostat .absolute.bottom-0 {
-    padding-bottom: 5px;
-    top: 10px;
-    left: 17px;
-    text-align: left;
-    width: auto;
+	padding-bottom: 5px;
+	top: 10px;
+	left: 17px;
+	text-align: left;
+	width: auto;
 }
 
 .tile.thermostat .w-full.my-1 {
-position:absolute;
-bottom: 0;
-
+	position:absolute;
+	bottom: 0;
 }
 
 .tile.thermostat>div>div .cooling.w-full,
 .tile.thermostat .heating.pt-1 {
-padding: 0px 10px 20px;
+	padding: 0px 10px 20px;
 }
 
 .tile.thermostat .cooling .inline-block,
 .tile.thermostat .heating .inline-block {
- font-size: 25px;
-vertical-align: super;
+	font-size: 25px;
+	vertical-align: super;
 }
 
 .tile.thermostat .cooling .inline-block br,
 .tile.thermostat .heating .inline-block br {
-content: " ";
-padding: 5px;
+	content: " ";
+	padding: 5px;
 }
 
 .he-shades_open:before,
@@ -280,28 +291,28 @@ padding: 5px;
 .he-shades_partially_open:before,
 .he-shades_closing:before,
 .he-shades_closed:before {
- font-size: 80%;
+	font-size: 80%;
 }
 
 .tile.shades .tile-primary .material-icons {
-margin-top: -5px;
-display: none;
+	margin-top: -5px;
+	display: none;
 }
 
 .tile.shades .dimmer {
-margin-top: 6px;
+	margin-top: 6px;
 }
 
 .tile.image img {
-object-fit: cover;
+	object-fit: cover;
 }
 
 /* UI tweaks */
 
 .tile-contents {
-    margin-top: 15px;
-    height: calc(100% - 20px);
-    width: calc(100%);
+	margin-top: 15px;
+	height: calc(100% - 20px);
+	width: calc(100%);
 }
 
 .popup-container {
@@ -321,8 +332,8 @@ object-fit: cover;
 /* fix mobile overscroll */
 
 .dashboard div .header {
-  padding: 0;
-  margin: 10px 10px 10px 0;
+	padding: 0;
+	margin: 10px 10px 10px 0;
 }
 
 /* fix mobile overscroll */
@@ -332,11 +343,11 @@ object-fit: cover;
 }
 
 .tile-edit {
-top: auto;
-bottom: 10px;
-opacity: .3;
+	top: auto;
+	bottom: 10px;
+	opacity: .3;
 }
 
 .tile-primary {
-padding-bottom: calc(10%);
+	padding-bottom: calc(10%);
 }
