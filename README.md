@@ -20,4 +20,4 @@ As there isn't an actual 'skin' system for Hubitat Dashboard, the easiest way to
 
 ## Authors
 
-* **Eli Altman** - *Initial work* - [smartly](https://github.com/workit247)
+* **Eli Altman** - *Initial work* - smartly
