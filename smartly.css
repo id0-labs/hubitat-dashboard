@@ -318,6 +318,19 @@ object-fit: cover;
 	margin-right: 20px;
 }
 
+/* fix mobile overscroll */
+
+.dashboard div .header {
+  padding: 0;
+  margin: 10px 10px 10px 0;
+}
+
+/* fix mobile overscroll */
+.wrapper {
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
 .tile-edit {
 top: auto;
 bottom: 10px;
