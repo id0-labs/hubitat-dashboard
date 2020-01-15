@@ -1,0 +1,244 @@
+{
+  "roundedCorners": 20,
+  "dateFormat": "MM/DD/YYYY",
+  "hideLabels": false,
+  "customColors": [
+    {
+      "template": "dimmer",
+      "bgColor": "rgba(33, 150, 243, 0.9)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "on"
+    },
+    {
+      "template": "dimmer",
+      "bgColor": "rgb(255,255,255)",
+      "iconColor": "rgb(135,135,135)",
+      "state": "off"
+    },
+    {
+      "template": "motion",
+      "bgColor": "rgb(255,255,255)",
+      "iconColor": "rgb(0,0,0)",
+      "state": "inactive",
+      "customIcon": "he-motion_detector_3_filled"
+    },
+    {
+      "template": "motion",
+      "bgColor": "rgb(236,255,34)",
+      "iconColor": "rgb(0,0,0)",
+      "state": "active",
+      "customIcon": "he-motion_detector_3"
+    },
+    {
+      "template": "switches",
+      "bgColor": "",
+      "iconColor": "",
+      "state": "off",
+      "customIcon": "he-switch_2"
+    },
+    {
+      "template": "switches",
+      "bgColor": "rgba(33, 150, 243, 0.9)",
+      "iconColor": "",
+      "state": "on",
+      "customIcon": "he-switch_2_flipped"
+    },
+    {
+      "template": "multi",
+      "bgColor": "rgba(0, 255, 105, 0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "closed"
+    },
+    {
+      "template": "multi",
+      "bgColor": "rgba(255, 0, 0, 0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "open"
+    },
+    {
+      "template": "window",
+      "bgColor": "rgba(0, 255, 105, 0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "closed"
+    },
+    {
+      "template": "window",
+      "bgColor": "rgba(255, 0, 0, 0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "open"
+    },
+    {
+      "template": "door",
+      "bgColor": "rgba(0, 255, 105, 0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "closed"
+    },
+    {
+      "template": "door",
+      "bgColor": "rgba(255, 0, 0, 0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "open"
+    },
+    {
+      "template": "fan",
+      "bgColor": "rgba(33, 150, 243, 0.9)",
+      "iconColor": "",
+      "state": "low",
+      "customIcon": ""
+    },
+    {
+      "template": "fan",
+      "bgColor": "rgba(33, 150, 243, 0.9)",
+      "iconColor": "",
+      "state": "medium-low",
+      "customIcon": ""
+    },
+    {
+      "template": "fan",
+      "bgColor": "rgba(33, 150, 243, 0.9)",
+      "iconColor": "",
+      "state": "medium",
+      "customIcon": ""
+    },
+    {
+      "template": "fan",
+      "bgColor": "rgba(33, 150, 243, 0.9)",
+      "iconColor": "",
+      "state": "medium-high",
+      "customIcon": ""
+    },
+    {
+      "template": "fan",
+      "bgColor": "rgba(33, 150, 243, 0.9)",
+      "iconColor": "",
+      "state": "high",
+      "customIcon": ""
+    },
+    {
+      "template": "garage-control",
+      "bgColor": "rgba(0, 255, 105, 0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "closed"
+    },
+    {
+      "template": "garage-control",
+      "bgColor": "rgba(255, 0, 0, 0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "open"
+    },
+    {
+      "template": "garage-control",
+      "bgColor": "rgba(255,90,28,0.75)",
+      "iconColor": "",
+      "state": "opening",
+      "customIcon": ""
+    },
+    {
+      "template": "garage-control",
+      "bgColor": "rgba(255,90,28,0.75)",
+      "iconColor": "",
+      "state": "closing",
+      "customIcon": ""
+    },
+    {
+      "template": "shades",
+      "bgColor": "hsla(0,0%,50.2%,.5)",
+      "iconColor": "",
+      "state": "off",
+      "customIcon": ""
+    },
+    {
+      "template": "shades",
+      "bgColor": "rgba(33, 150, 243, 0.9)",
+      "iconColor": "",
+      "state": "on",
+      "customIcon": ""
+    },
+    {
+      "template": "shades",
+      "bgColor": "rgb(234,213,97)",
+      "iconColor": "",
+      "state": "opening",
+      "customIcon": ""
+    },
+    {
+      "template": "shades",
+      "bgColor": "rgb(234,213,97)",
+      "iconColor": "",
+      "state": "closing",
+      "customIcon": ""
+    },
+    {
+      "template": "shades",
+      "bgColor": "rgb(67,166,52)",
+      "iconColor": "",
+      "state": "open",
+      "customIcon": ""
+    },
+    {
+      "template": "door-control",
+      "bgColor": "rgb(255,97,22)",
+      "iconColor": "",
+      "state": "opening",
+      "customIcon": ""
+    },
+    {
+      "template": "door-control",
+      "bgColor": "rgba(255, 0, 0, 0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "open"
+    },
+    {
+      "template": "door-control",
+      "bgColor": "rgba(0, 255, 105, 0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "closed"
+    },
+    {
+      "template": "lock",
+      "bgColor": "rgba(0, 255, 105, 0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "locked",
+      "customIcon": ""
+    },
+    {
+      "template": "water",
+      "bgColor": "rgba(255, 0, 0, 0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "wet",
+      "customIcon": ""
+    },
+    {
+      "template": "water",
+      "bgColor": "rgba(0, 255, 105, 0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "dry",
+      "customIcon": ""
+    }
+  ],
+  "colWidth": 160,
+  "cloudRefresh": 5,
+  "hsmPin": "",
+  "hide3dot": false,
+  "clockMode": true,
+  "gridGap": 15,
+  "tiles": [
+  ],
+  "goBack": true,
+  "modePin": "",
+  "bgColor": "white",
+  "lanRefresh": 2,
+  "iconSize": "35",
+  "cols": 7,
+  "rowHeight": 110,
+  "customCSS": "",
+  "hideEvents": false,
+  "tempScale": "F",
+  "noColors": false,
+  "readOnly": null,
+  "rows": 4,
+  "hideIconText": false,
+  "background": "https://i.ibb.co/26RjkC6/home.jpg",
+  "name": "Main Floor",
+  "fontSize": 15
+}
